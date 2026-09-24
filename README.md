@@ -1,7 +1,5 @@
 # SS17_HW05 - Xử lý ngoại lệ và fallback khi Redis lỗi
 
-**Sinh viên:** Trương Hà Cẩm Linh - **Mã sinh viên:** PTIT056
-
 ## 1. Mục tiêu
 
 Ứng dụng GrabFood dùng Redis để tăng tốc API menu nhưng database vẫn là nguồn dữ liệu chính. Khi Redis mất kết nối, lỗi cache phải được ghi log và bỏ qua để API tiếp tục đọc hoặc cập nhật database, không trả HTTP 500.
